@@ -12,18 +12,19 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            width: 400px;
+            height: 400px;
         }
-        tr.linha{
-            background-color: gray;
-        }
+        
         td{
             border: 1px solid black;
             padding: 2px;
+            text-align: center;
+            vertical-align: middle;
         }
-        td.destaque{
-            background-color: yellow;
+        .numero{
+            text-align: right;
         }
-
     </style>
 </head>
 <body>
@@ -40,8 +41,8 @@
            <td>B2</td>
            <td>C2</td>
         </tr>
-        <tr class="linha">
-            <td>A2</td>
+        <tr>
+            <td class="numero">2</td>
             <td>B2</td>
             <td>C3</td>
         </tr>
@@ -50,9 +51,7 @@
             <td>B3</td>
             <td>C3</td>
         </tr>
-        <tr>
-            <td class="destaque">A4</td>
-        </tr>
+        
     </table>
 </body>
 </html>
