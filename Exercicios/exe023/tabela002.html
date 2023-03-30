@@ -13,6 +13,7 @@
       table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
 
       td,th{
@@ -23,6 +24,18 @@
         background-color: gray;
         color: white;
       }
+
+      tbody > tr:nth-child(2n){
+        background-color: lightgray;
+      }
+
+      thead > th > tr{
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+      } /*não funciona mais em 2023*/
+
+
 
 
     </style>
@@ -109,5 +122,12 @@
         </tr>
       </tfoot>
     </TAble>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam quaerat nisi quas illo officia delectus, consequatur, distinctio tempore labore repellat. Quia libero iusto commodi dignissimos debitis tenetur totam asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime, recusandae explicabo iusto eum eaque fuga. Rem corporis doloremque enim esse a maiores vero molestias! Molestias quaerat eum dolor sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nihil necessitatibus, minus id molestias exercitationem cumque voluptatem rem distinctio vel voluptatibus quod velit perferendis incidunt quis quam et sequi nam.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam quaerat nisi quas illo officia delectus, consequatur, distinctio tempore labore repellat. Quia libero iusto commodi dignissimos debitis tenetur totam asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime, recusandae explicabo iusto eum eaque fuga. Rem corporis doloremque enim esse a maiores vero molestias! Molestias quaerat eum dolor sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nihil necessitatibus, minus id molestias exercitationem cumque voluptatem rem distinctio vel voluptatibus quod velit perferendis incidunt quis quam et sequi nam.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam quaerat nisi quas illo officia delectus, consequatur, distinctio tempore labore repellat. Quia libero iusto commodi dignissimos debitis tenetur totam asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime, recusandae explicabo iusto eum eaque fuga. Rem corporis doloremque enim esse a maiores vero molestias! Molestias quaerat eum dolor sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nihil necessitatibus, minus id molestias exercitationem cumque voluptatem rem distinctio vel voluptatibus quod velit perferendis incidunt quis quam et sequi nam.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam quaerat nisi quas illo officia delectus, consequatur, distinctio tempore labore repellat. Quia libero iusto commodi dignissimos debitis tenetur totam asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime, recusandae explicabo iusto eum eaque fuga. Rem corporis doloremque enim esse a maiores vero molestias! Molestias quaerat eum dolor sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nihil necessitatibus, minus id molestias exercitationem cumque voluptatem rem distinctio vel voluptatibus quod velit perferendis incidunt quis quam et sequi nam.</p>
 </body>
 </html>
